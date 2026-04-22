@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.network import PhotonicHopfieldNetwork
-from src.visualization import visualize_recall_evolution
+from hopfield_nn.network import PhotonicHopfieldNetwork
+from hopfield_nn.visualization import visualize_recall_evolution
 
 
 def demo_single_recall():
