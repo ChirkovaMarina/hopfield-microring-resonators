@@ -10,8 +10,8 @@ from tqdm import tqdm
 if __package__ is None or __package__ == "":
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.network import NetParams, PhotonicHopfieldNetwork
-from src.physics import MRRParams
+from hopfield_nn.network import NetParams, PhotonicHopfieldNetwork
+from hopfield_nn.physics import MRRParams
 
 
 class ExpC_Physics:
