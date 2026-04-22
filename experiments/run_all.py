@@ -13,7 +13,7 @@ from experiments.exp_a_single_node import ExpA_SingleNode
 from experiments.exp_b_assoc_memory import ExpB_AssocRecall
 from experiments.exp_c_physics import ExpC_Physics
 from experiments.exp_d_compare import ExpD_Compare
-from src.visualization import (
+from hopfield_nn.visualization import (
     visualize_energy_landscape,
     visualize_patterns,
     visualize_weight_matrix,
