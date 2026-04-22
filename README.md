@@ -8,7 +8,6 @@ This project explores a physical implementation of a Hopfield-like associative m
 
 The goal is to connect concepts from nonlinear optics, integrated photonics, and energy-based neural networks (Hopfield / Ising models), and demonstrate how optical systems can naturally perform optimization and memory retrieval.
 
----
 
 ## Physical Model
 
@@ -32,7 +31,6 @@ $$
 * carriers are generated via two-photon absorption
 * carrier density changes the refractive index, leading to a resonance shift
 
----
 
 ## Nonlinearity and Bistability
 
@@ -51,7 +49,6 @@ As a result, the system exhibits optical bistability:
 
 Each resonator can therefore be interpreted as a binary neuron.
 
----
 
 ## Hopfield Energy Mapping
 
@@ -67,7 +64,6 @@ In the photonic system:
 * nonlinear response determines state updates
 * time evolution of the system performs energy minimization
 
----
 
 ## Learning Rule
 
@@ -77,7 +73,6 @@ $$
 W_{ij} = \frac{1}{N} \sum_p \xi_i^p \xi_j^p
 $$
 
----
 
 ## Project Structure
 
@@ -96,7 +91,6 @@ experiments/
     run_all.py
 ```
 
----
 
 ## How to Run
 
@@ -128,7 +122,6 @@ python experiments/run_all.py
 * pattern recall and noise robustness
 * comparison with digital Hopfield networks
 
----
 
 ## Example Workflow
 
@@ -137,8 +130,6 @@ python experiments/run_all.py
 3. Corrupt the input pattern
 4. Run system dynamics (discrete or optical)
 5. Observe convergence to a stored state
-
----
 
 
 ## Applications
